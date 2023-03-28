@@ -1,0 +1,57 @@
+@dark-pink-background: #eba8b1;
+@light-pink-background: #ffefef;
+@footer-background: #c0707c;
+@footer-text: rgb(227, 172, 180);
+@dark-link-color: rgb(119, 11, 29);
+@dark-red-color: rgb(130, 19, 40);
+@input-color: rgb(73, 5, 17);
+@placeholder-color: rgb(118, 12, 34);
+@present: rgb(119, 10, 29);
+@present-light: rgb(254, 239, 238);
+@shadow-color: rgba(130, 19, 40, 0.5);
+@button-background-one: rgb(113, 8, 30);
+@button-background-two: rgb(215, 72, 92);
+@white-color: white;
+
+@box-sizing: border-box;
+@absolute-pos: absolute;
+
+@bold-text: GilroyBold, sans-serif;
+@medium-text: GilroyMedium, sans-serif;
+@regular-text: GilroyRegular, sans-serif;
+
+
+@main-text-size: 18px;
+@small-text-size: 16px;
+
+@border-round: 50%;
+
+// MIXINS
+
+.pseudo() {
+  content: "";
+  position: @absolute-pos;
+}
+
+.column-spacebetween() {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-center-all() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.flexcolumn-center-all() {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexrow-spacebetween-center() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
